@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
-import { IonRouterOutlet } from '@ionic/angular/standalone';
+import { Ionic, IonRouterOutlet } from '@ionic/angular/standalone';
 import {IonicModule} from '@ionic/angular';
 import { RouterLink } from '@angular/router';
 
@@ -10,7 +10,7 @@ import { RouterLink } from '@angular/router';
   selector: 'app-root',
   templateUrl: 'app.component.html',
   standalone: true,
-  imports: [IonRouterOutlet, IonicModule, RouterLink],
+  imports: [IonApp, IonRouterOutlet, IonicModule ],
 })
 export class AppComponent {
   constructor() {}
