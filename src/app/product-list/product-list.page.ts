@@ -41,3 +41,5 @@ export class ProductListPage implements OnInit {
 }
 
 // hola hola
+//// otro comentario de prueba
+// comentario 3
