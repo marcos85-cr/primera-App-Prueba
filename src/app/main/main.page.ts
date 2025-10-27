@@ -1,7 +1,10 @@
 import { Component, OnInit, inject } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
-import { Product, ProductsService } froimport { from } from '../services/products.services';
+import { IonContent, IonHeader, IonTitle, IonToolbar, IonButton } from '@ionic/angular/standalone';
+import { IonicModule } from '@ionic/angular';
+import { RouterLink } from '@angular/router';
+import { Product, ProductsService } from '../services/products.services';
 
 
 @Component({
@@ -9,7 +12,7 @@ import { Product, ProductsService } froimport { from } from '../services/product
   templateUrl: './product-list.page.html',
   styleUrls: ['./product-list.page.scss'],
   standalone: true,
-  imports: [ CommonModule, FormsModule, IonicModule]
+  imports: [ CommonModule, FormsModule, IonicModule, IonContent, IonHeader, IonTitle, IonToolbar, IonButton, RouterLink]
    
   
 })
