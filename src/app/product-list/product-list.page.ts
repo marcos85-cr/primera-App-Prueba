@@ -9,7 +9,7 @@ import {
   IonList,
   IonItem,
   IonLabel,
-} from '@ionic/angular';
+} from '@ionic/angular/standalone';
 import { Product, ProductsService } from '../services/products.services';
 
 @Component({
